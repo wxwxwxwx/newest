@@ -1,0 +1,41 @@
+/*文章的列表*/
+.contentNews{
+    width: 100%;
+    height: 0;
+    padding-bottom: 35%;
+
+}
+/*左边的缩略图以及标题*/
+.content-left{
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    display: inline-block;
+
+}
+/*标题名称*/
+.content-title{
+    height: 30px;
+    margin: 0 5px;
+}
+.content-title span{
+    font-size: 14px;
+}
+/*缩略图的大小*/
+.content-thumb{
+    width: 80%;
+    height: 0;
+    padding-bottom: 80%;
+    margin: 5px;
+
+}
+.content-newscontent{
+    display: inline-block;
+}
+
+@media only screen and (max-width: 700px){
+    .content-title span{
+        font-size: 12px;
+    }
+}
+

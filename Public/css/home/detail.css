@@ -1,0 +1,48 @@
+.swiper-container－detail{
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    min-width: 1280px;
+}
+.swiper-container－detail .swiper-pagination{
+    position: static;
+}
+/*文章主体部分*/
+.news-content{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    padding: 20px;
+    min-width: 1280px;
+}
+/*左边文章*/
+.left-news-content{
+    width: 75%;
+    height: auto;
+    float: left;
+}
+/*右边文章列表*/
+.right-content-list{
+    float: left;
+    width: 25%;
+    background: purple;
+    padding: 5px 0 5px 20px;
+}
+
+/*响应式布局*/
+@media only screen and (max-width: 700px){
+    /*详情页面轮播图*/
+    .swiper-container－detail{
+        height: 200px;
+        width: 100%;
+        min-width: 320px;
+    }
+    /*改变字体*/
+    .left-news-content{
+        font-size: 12px;
+    }
+    .news-content{
+
+        min-width: 320px;
+    }
+}
